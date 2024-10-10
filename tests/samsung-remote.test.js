@@ -6,6 +6,7 @@ function string2Bin(str) {
         result.push(str.charCodeAt(i));
     }
     return result;
+	
 }
 
 test("validates input", () => {
